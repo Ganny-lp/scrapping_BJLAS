@@ -3,7 +3,7 @@ import pytest
 from unittest.mock import Mock, create_autospec
 
 from core.application.services import ScrapingService
-from core.ports.repositories import EdicaoRepository, ArtigoRepository
+from core.domain.repositories import EdicaoRepository, ArtigoRepository
 from core.ports.logger_port import Logger
 from core.domain.entities import Edicao, Artigo
 import requests

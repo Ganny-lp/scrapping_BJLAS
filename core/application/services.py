@@ -1,6 +1,6 @@
 import concurrent.futures
 from tqdm import tqdm
-from core.ports.repositories import EdicaoRepository, ArtigoRepository
+from core.domain.repositories import EdicaoRepository, ArtigoRepository
 from core.ports.logger_port import Logger
 from core.domain.entities import Edicao, Artigo
 import requests
